@@ -6,5 +6,6 @@ driver = Selenium::WebDriver.for :remote,
 
 driver.navigate.to "http://google.com"
 driver.save_screenshot "screenshot.png"
+puts "==== save screenshot ===="
 
 driver.quit
