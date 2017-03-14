@@ -3,7 +3,6 @@
 ## Run test
 
 ```sh
-$ docker-compose up -d
-$ docker-compose run test
+$ docker-compose up
 ```
 
