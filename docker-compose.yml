@@ -25,6 +25,5 @@ services:
   test:
     build: .
     depends_on:
-      - hub
       - node_firefox
       - node_chrome
