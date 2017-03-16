@@ -3,6 +3,7 @@
 ## Run test
 
 ```sh
-$ docker-compose up
+$ docker-compose up -d
+$ docker-compose run test bundle exec ruby screenshot.rb
 ```
 
